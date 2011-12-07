@@ -371,7 +371,7 @@ def each_heroku_app
       rake production restart
       rake demo staging deploy"
 
-    puts "\nYou can use also command all Heroku apps for this project:
+    puts "\nYou can also use 'all' to send a command to all Heroku apps for this project:
       rake all heroku:share"
 
     exit(1)
